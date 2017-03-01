@@ -15,19 +15,21 @@
 				<h1 class="icon-female"> My Website </h1>
 				<input type="checkbox" id="menu-bar">
 				<label class="icon-menu" for="menu-bar"></label>
-			<nav class="menu">
-				<a href="" >Home</a>
-				<a href="#aboutMe" onclick="moveTo('myself')">Myself</a>
-				<a href="#MyHobbies" onclick="moveTo('hobbies')">Hobbies</a>
-				<a href="#travel" onclick="moveTo ('travel')">Travelling</a>
-				<a href="" >Contact</a>
-				
-			</nav>
-		</div>
-	</header>
+				<nav class="menu">
+					<a class="active page-scroll" href="#welcome" >Home</a>
+					<a class="page-scroll" href="#myself">Myself</a>
+					<a class="page-scroll" href="#hobbies">Hobbies</a>
+					<a class="page-scroll" href="#travel">Travelling</a>
+					<a class="page-scroll" href="#contact" >Contact</a>
+					
+				</nav>
+			</div>
+
+		</header>
 
 	<main>
 		<section id="banner">
+		<div class="space-100"></div>
 			<img src="img/banner.jpg">
 			<div class="contenedor">
 				<h2>Maribel Araiza</h2>
@@ -36,6 +38,7 @@
 		</section>
 
 		<section id="welcome">
+		<div class="space-100"></div>
 		<h2> WELCOME EVERYONE TO HER PERSONAL SITE</h2>
 		<p> Here you can find some info about her, such as: </p>
 		</section>
@@ -58,39 +61,41 @@
 		</section>
 
 		<section id="myself">
-			<h3>ME, MYSELF & I</h3>
-			<div class="contenedor"></div>
-		</section>
+			<div class="space-100"></div>
+			<div class="title">
+				<h3>ME, MYSELF & I</h3>
+				<div class="contenedor"></div>
+			</div>
 
-		<section>
 			<p> Maribel is a languages teacher from Jalisco but has been living in Colima since 2001. On her early years as a teacher -in 2008- she participate as a Spanish assistant in two boarding schools in Cambridge, England; and she has been teaching <i>English</i> in several schools since she came back to Colima. Currently, she is working as English teacher in the <i>Facultad de Telemática</i> at <i>Universidad de Colima;</i> also, she's teaching <i>French</i> in the <i>Facultad de Economía</i>. </br></p>
 			<p> She decided to learn programming due to she reckons that it's like learning a foreign language; at the beginning it's hard but once you learn/understand the basics, you're ready to continue improving and get even more prepared with diverse programming languages.</p>
 		</section>
 
 		<section id="hobbies">
-			<h3>HOBBIES</h3>
-			<div class="contenedor"></div>
-		</section>
-
-		<section>
+			<div class="space-100"></div>
+			<div class="title">
+				<h3>HOBBIES</h3>
+				<div class="contenedor"></div>
+			</div>
+	
 			<p> One of her favourite hobbies is <b> cooking </b> and she loves it! Before she goes to work, she prepares pasta, lasagna or even seafood; it's so relaxing for her that she forgets that once she finishes her tasty dishes, the sad part comes...doing the washing up. <br/> 
 			<p> Another one is <b> watching movies, </b> she enjoys watching them in her room so if she need to go out because friends invited her for dinner, she can pause it and continue watching it when she comes back. Her favourite genres are: <i> Comedy, Action and Drama. </i> <br/> </p>
 			<p> Last but not least, she also has a great time <b> running </b>. She goes to a park near her house where she runs there three times a week for 30 or 20 minutes -it depends on her mood. While she runs, she fancies listening to music from playlists on Spotify. </p>
 		</section>
 
 		<section id="travel">
-			<h3>TRAVELLING</h3>
-			<div class="contenedor"></div>
-		</section>
-
-	
-		<section>
+		<div class="space-100"></div>
+			<div class="title">
+				<h3>TRAVELLING</h3>
+				<div class="contenedor"></div>
+			</div>
 			<p> Her passion is travelling no matter where as far as she spends an amazing time relaxing, visiting landscapes or going on incredible adventures. Some of her friends love to travel too, so as soon as they get the idea what city or country they want to visit next, they tell start making plans and decide how and when they are going to go. She adores trying typical food, meeting new people from different regions or countries and if it's possible, practise either English or French with them. This year, she's planning to visit San Luis Potosi and Coahuila. </p>
 		</section>
 	</main>
 
 	
 	<footer>
+	<section id="contact">
 		<div class="contenedor">
 			<p class="copy"> MAC &copy; 2017</p>
 			<div class="sociales"> 
@@ -100,7 +105,11 @@
 				<a class="icon-gplus" href="#"></a>
 			</div>
 		</div>
+	</section>
 	</footer>
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/jquery-ui.js"></script>
 	<script src="stylesheet/javascript.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/general_scripts.js"></script>
 	</body>
 </html>
